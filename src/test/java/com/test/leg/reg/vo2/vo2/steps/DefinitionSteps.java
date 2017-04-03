@@ -24,7 +24,7 @@ public class DefinitionSteps {
 
     @Then("they should see the definition '(.*)'")
     public void thenTheyShouldSeeADefinitionContainingTheWords(String definition) {
-        anna.should_see_definition(definition);
+        anna.should_see_definition(definition);//llll
     }
 
 }
