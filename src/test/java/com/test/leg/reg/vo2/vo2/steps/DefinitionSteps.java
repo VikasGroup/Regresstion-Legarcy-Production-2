@@ -10,7 +10,7 @@ import com.test.leg.reg.vo2.vo2.steps.serenity.EndUserSteps;
 public class DefinitionSteps {
 
     @Steps
-    EndUserSteps anna;
+    EndUserSteps ann;
 
     @Given("the user is on the Wikionary home page")
     public void givenTheUserIsOnTheWikionaryHomePage() {
